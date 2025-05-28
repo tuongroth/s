@@ -1,0 +1,126 @@
+[
+    {
+        "_id": "2eb7b4bc-4ab0-4ba4-9cbf-686f27386f58",
+        "colId": "history",
+        "containerId": "",
+        "name": "http:localhost:4000/api/song/list",
+        "url": "http://localhost:4000/api/song/list",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-05-24T22:11:48.068Z",
+        "modified": "2025-05-28T08:24:51.431Z",
+        "headers": [],
+        "body": {
+            "type": "formdata",
+            "raw": "",
+            "form": [
+                {
+                    "name": "name",
+                    "value": "testing albu"
+                },
+                {
+                    "name": "album",
+                    "value": "testing album"
+                },
+                {
+                    "name": "desc",
+                    "value": "testing description"
+                }
+            ],
+            "files": [
+                {
+                    "name": "image",
+                    "value": "../../spotify-clone/src/assets/img3.jpg"
+                },
+                {
+                    "name": "audio",
+                    "value": "../../spotify-clone/src/assets/song3.mp3"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "f293da14-0402-4279-9e70-296ade32af2a",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:4000/api/album/list",
+        "url": "http://localhost:4000/api/album/add",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2025-05-25T17:22:11.646Z",
+        "modified": "2025-05-28T08:24:35.916Z",
+        "headers": [],
+        "body": {
+            "type": "formdata",
+            "raw": "",
+            "form": [
+                {
+                    "name": "name",
+                    "value": "testing album 2"
+                },
+                {
+                    "name": "desc",
+                    "value": "testing description 2"
+                },
+                {
+                    "name": "bgColour",
+                    "value": "#121212"
+                }
+            ],
+            "files": [
+                {
+                    "name": "image",
+                    "value": "../uploads/1748033406208-14126331-img9.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "cc4b6bb9-2027-4a3b-85b2-1ebeb241887d",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:4000/api/album/list",
+        "url": "http://localhost:4000/api/album/list",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-05-27T09:23:39.948Z",
+        "modified": "2025-05-27T09:23:39.948Z",
+        "headers": [],
+        "body": {
+            "type": "formdata",
+            "raw": "",
+            "form": [
+                {
+                    "name": "name",
+                    "value": "testing name"
+                },
+                {
+                    "name": "album",
+                    "value": "testing album"
+                },
+                {
+                    "name": "bgColour",
+                    "value": "#ffff"
+                }
+            ],
+            "files": [
+                {
+                    "name": "",
+                    "value": "../../spotify-clone/src/assets/img8.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "_id": "4457dc99-d556-4b07-8bd0-8e65eb374301",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:4000/api/song/add",
+        "url": "http://localhost:4000/api/song/add",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2025-05-28T08:13:06.178Z",
+        "modified": "2025-05-28T08:13:06.178Z",
+        "headers": []
+    }
+]
