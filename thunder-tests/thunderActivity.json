@@ -8,7 +8,7 @@
         "method": "GET",
         "sortNum": 0,
         "created": "2025-05-24T22:11:48.068Z",
-        "modified": "2025-05-28T08:24:51.431Z",
+        "modified": "2025-05-28T19:14:20.430Z",
         "headers": [],
         "body": {
             "type": "formdata",
@@ -16,25 +16,25 @@
             "form": [
                 {
                     "name": "name",
-                    "value": "testing albu"
+                    "value": "Song One"
                 },
                 {
                     "name": "album",
-                    "value": "testing album"
+                    "value": "0"
                 },
                 {
                     "name": "desc",
-                    "value": "testing description"
+                    "value": "Put a smile on your face with these happy tunes"
                 }
             ],
             "files": [
                 {
                     "name": "image",
-                    "value": "../../spotify-clone/src/assets/img3.jpg"
+                    "value": "../../spotify-clone/src/assets/img1.jpg"
                 },
                 {
                     "name": "audio",
-                    "value": "../../spotify-clone/src/assets/song3.mp3"
+                    "value": "../../spotify-clone/src/assets/song1.mp3"
                 }
             ]
         }
@@ -44,11 +44,11 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:4000/api/album/list",
-        "url": "http://localhost:4000/api/album/add",
-        "method": "POST",
+        "url": "http://localhost:4000/api/album/list",
+        "method": "GET",
         "sortNum": 0,
         "created": "2025-05-25T17:22:11.646Z",
-        "modified": "2025-05-28T08:24:35.916Z",
+        "modified": "2025-05-28T18:42:01.191Z",
         "headers": [],
         "body": {
             "type": "formdata",
@@ -56,21 +56,21 @@
             "form": [
                 {
                     "name": "name",
-                    "value": "testing album 2"
+                    "value": "Happy Favorites"
                 },
                 {
                     "name": "desc",
-                    "value": "testing description 2"
+                    "value": "Your weekly update of the most played tracks"
                 },
                 {
                     "name": "bgColour",
-                    "value": "#121212"
+                    "value": "#744210"
                 }
             ],
             "files": [
                 {
                     "name": "image",
-                    "value": "../uploads/1748033406208-14126331-img9.jpg"
+                    "value": "../../spotify-clone/src/assets/img15.jpg"
                 }
             ]
         }
@@ -80,11 +80,11 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:4000/api/album/list",
-        "url": "http://localhost:4000/api/album/list",
-        "method": "GET",
+        "url": "http://localhost:4000/api/album/add",
+        "method": "POST",
         "sortNum": 0,
         "created": "2025-05-27T09:23:39.948Z",
-        "modified": "2025-05-27T09:23:39.948Z",
+        "modified": "2025-05-28T18:15:53.080Z",
         "headers": [],
         "body": {
             "type": "formdata",
@@ -106,7 +106,7 @@
             "files": [
                 {
                     "name": "",
-                    "value": "../../spotify-clone/src/assets/img8.jpg"
+                    "value": "../../spotify-clone/src/assets/img9.jpg"
                 }
             ]
         }

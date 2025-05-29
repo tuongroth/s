@@ -29,7 +29,8 @@ console.log("➡️ req.files:", req.files);
       album,
       image: imageUpload.secure_url,
       file: audioUpload.secure_url,
-      duration: audioUpload.duration?.toString() || "0"
+      duration: Math.round(audioUpload.duration) // → lưu số nguyên (giây)
+
     });
 
     res.status(201).json({ message: '🎶 Song added successfully', song: newSong });
