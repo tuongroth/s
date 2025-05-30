@@ -4,11 +4,11 @@
         "colId": "history",
         "containerId": "",
         "name": "http:localhost:4000/api/song/list",
-        "url": "http://localhost:4000/api/song/list",
-        "method": "GET",
+        "url": "http://localhost:4000/api/song/add",
+        "method": "POST",
         "sortNum": 0,
         "created": "2025-05-24T22:11:48.068Z",
-        "modified": "2025-05-28T19:14:20.430Z",
+        "modified": "2025-05-30T16:13:48.178Z",
         "headers": [],
         "body": {
             "type": "formdata",
@@ -16,11 +16,11 @@
             "form": [
                 {
                     "name": "name",
-                    "value": "Song One"
+                    "value": "Song Eight"
                 },
                 {
                     "name": "album",
-                    "value": "0"
+                    "value": "6838d29e321e80b366f41474"
                 },
                 {
                     "name": "desc",
@@ -30,11 +30,11 @@
             "files": [
                 {
                     "name": "image",
-                    "value": "../../spotify-clone/src/assets/img1.jpg"
+                    "value": "../../spotify-clone/src/assets/img12.jpg"
                 },
                 {
                     "name": "audio",
-                    "value": "../../spotify-clone/src/assets/song1.mp3"
+                    "value": "../../spotify-clone/spotifyfrontend/src/assets/song2.mp3"
                 }
             ]
         }
@@ -48,7 +48,7 @@
         "method": "GET",
         "sortNum": 0,
         "created": "2025-05-25T17:22:11.646Z",
-        "modified": "2025-05-28T18:42:01.191Z",
+        "modified": "2025-05-29T21:33:38.069Z",
         "headers": [],
         "body": {
             "type": "formdata",
@@ -121,6 +121,18 @@
         "sortNum": 0,
         "created": "2025-05-28T08:13:06.178Z",
         "modified": "2025-05-28T08:13:06.178Z",
+        "headers": []
+    },
+    {
+        "_id": "dd087856-debf-4402-ac57-fa6c814dabbf",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://https://spotifybend-tuongroths-projects.vercel.app//api/song/list",
+        "url": "http://localhost:4000/api/album/66351e38efcaa282b44f34a2",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-05-29T19:38:36.310Z",
+        "modified": "2025-05-29T22:15:58.785Z",
         "headers": []
     }
 ]

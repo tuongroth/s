@@ -1,12 +1,13 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const albumSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  desc: { type: String, required: true },
-  bgColour: { type: String, required: true },
-    image: { type: String, required: true },
+  id: { type: Number, unique: true }, // thêm trường id kiểu Number
+  name: String,
+  desc: String,
+  bgColour: String,
+  image: String
 });
 
-const albumModel = mongoose.models.album || mongoose.model("album", albumSchema);
+const albumModel = mongoose.model('Album', albumSchema);
 
 export default albumModel;

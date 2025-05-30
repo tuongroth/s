@@ -8,7 +8,7 @@ const songSchema = new mongoose.Schema({
   image: { type: String, required: true }, // Cloudinary image URL
   file: { type: String, required: true },  // Cloudinary audio URL
   duration: { type: String, required: true }
-});
+}, { timestamps: true });  // <-- Đây là nơi đúng
 
 const songModel = mongoose.models.song || mongoose.model("song", songSchema);
 export default songModel;
