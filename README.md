@@ -2,16 +2,16 @@
 
 Welcome to the Full Stack Music Streaming App — a modern Spotify clone built with **React.js**, **Node.js**, **Express**, and **MongoDB**. This project includes a **Frontend User Interface**, a **Backend REST API**, and an **Admin Panel** for managing content.
 
-![Spotify Clone Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-screen.png)
-![Admin Panel Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-single.png)
-![Single Album Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-single1.png)
-
-
 ## 🌐 Live Demo
 
 - 🎧 **Frontend (User App)**: [https://musicsjf.netlify.app/](https://musicsjf.netlify.app/)  
 - 🛠️ **Admin Panel**: [https://spotifyadminn.vercel.app](https://spotifyadminn.vercel.app)  
 - ⚙️ **Backend API**: [https://spotifybackendj.onrender.com/](https://spotifybackendj.onrender.com/)
+
+
+![Spotify Clone Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-screen.png)
+![Admin Panel Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-single.png)
+![Single Album Screenshot](https://github.com/tuongroth/screenshot/blob/main/assets/spotify-single1.png)
 
 ## 🚀 Features
 
