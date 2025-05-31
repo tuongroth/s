@@ -1,0 +1,7 @@
+curl -X POST http://localhost:4000/api/song/add \
+  -H "Content-Type: multipart/form-data" \
+  -F "name=testing name" \
+  -F "desc=testing description" \
+  -F "album=testing album" \
+  -F "image=@c:/Users/HP/OneDrive/spotify/spotify-clone/spotify-clone/src/assets/img9.jpg" \
+  -F "audio=@c:/Users/HP/OneDrive/spotify/spotify-clone/spotify-clone/src/assets/song1.mp3"
